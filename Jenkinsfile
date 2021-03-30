@@ -24,7 +24,7 @@ pipeline{
         //Stage 3: Publish to nexus
         stage ('Publish To Nexus') {
             steps {
-                nexusArtifactUploader artifacts: [[artifactId: 'brightdevopslab', classifier: 'war', file: 'target/brightdevopslab-0.0.77-SNAPSHOT.war', type: '']], credentialsId: 'ccc703e4-638c-44ae-a24a-bd67aa0bde20', groupId: 'com.brightdevopslab', nexusUrl: '192.168.1.217:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'BrightDevopsLab-SNAPSHOT', version: '0.0.77-SNAPSHOT'
+                nexusArtifactUploader artifacts: [[artifactId: 'brightdevopslab', classifier: 'war', file: 'target/brightdevopslab-0.0.88-SNAPSHOT.war', type: '']], credentialsId: 'ccc703e4-638c-44ae-a24a-bd67aa0bde20', groupId: 'com.brightdevopslab', nexusUrl: '192.168.1.217:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'BrightDevopsLab-SNAPSHOT', version: '0.0.88-SNAPSHOT'
             }
         }
         // Stage 4 : Publish the source code to Sonarqube
