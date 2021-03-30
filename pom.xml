@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.Brightdevopslab</groupId>
-  <artifactId>Brightdevopslab</artifactId>
+  <groupId>com.brightdevopslab</groupId>
+  <artifactId>brightdevopslab</artifactId>
   <packaging>war</packaging>
-  <version>0.0.55-SNAPSHOT</version>
-  <name>BrightUdemyDevOpsLab</name>
+  <version>0.0.66-SNAPSHOT</version>
+  <name>brightUdemyDevOpsLab</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
