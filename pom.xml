@@ -4,7 +4,11 @@
   <groupId>com.brightdevopslab</groupId>
   <artifactId>brightdevopslab</artifactId>
   <packaging>war</packaging>
+<<<<<<< HEAD
   <version>0.1.0-SNAPSHOT</version>
+=======
+  <version>0.0.88-SNAPSHOT</version>
+>>>>>>> 7b69bea7023afd823fe5a1e445505ccaa9dbb8bd
   <name>brightUdemyDevOpsLab</name>
   <url>http://maven.apache.org</url>
   <dependencies>
